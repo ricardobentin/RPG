@@ -1,0 +1,41 @@
+body{
+    background-image: url(../images/background.jpg);
+}
+h1{
+    font-size: 36px;
+    color: white;
+    padding: 10px;
+}
+img{
+max-height: 200px;
+max-width: 215px;
+background-color: white;
+}
+p{
+    text-align: center;
+}
+#bulbasaur{
+    width: 215px;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+   
+}
+#charmander{
+    width: 215px;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+#horsea{
+    width: 215px;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+#pikachu{
+    width: 215px;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
