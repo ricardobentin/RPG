@@ -14,31 +14,107 @@ background-color: white;
 p{
     text-align: center;
 }
-#bulbasaur{
+#bulbasaurBench{
     width: 100px;
     background-color: white;
     padding: 10px;
     margin: 10px;
    
 }
-#charmander{
+#charmanderBench{
     width: 100px;
     background-color: white;
     padding: 10px;
     margin: 10px;
 }
-#horsea{
+#horseaBench{
     width: 100px;
     background-color: white;
     padding: 10px;
     margin: 10px;
 }
-#pikachu{
+#pikachuBench{
     width: 100px;
     background-color: white;
     padding: 10px;
     margin: 10px;
 }
+#bulbasaurSelected{
+    width: 100px;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+   
+}
+#charmanderSelected{
+    width: 100px;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+#horseaSelected{
+    width: 100px;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+#pikachuSelected{
+    width: 100px;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+#bulbasaurEnemy{
+    width: 100px;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+   
+}
+#charmanderEnemy{
+    width: 100px;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+#horseaEnemy{
+    width: 100px;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+#pikachuEnemy{
+    width: 100px;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+#bulbasaurDefender{
+    width: 100px;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+   
+}
+#charmanderDefender{
+    width: 100px;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+#horseaDefender{
+    width: 100px;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+#pikachuDefender{
+    width: 100px;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
 
 #bench {
     background-color: yellow;
@@ -49,21 +125,18 @@ p{
 #enemyBench{
     background-color: green;
     max-width: 150px;
-    height: 700px;
     float: left;
     margin-right: 150px;
 }
 #yourCharacter{
     background-color: blue;
     max-width: 150px;
-    height: 700px;
     float: left;
     margin-right: 150px;
 }
 #defender{
-    background-color: white;
+    background-color: rgb(126, 42, 165);
     max-width: 150px;
-    height: 700px;
     float: left;
     margin-right: 150px;
 }
