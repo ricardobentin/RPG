@@ -8,34 +8,62 @@ h1{
 }
 img{
 max-height: 200px;
-max-width: 215px;
+max-width: 100px;
 background-color: white;
 }
 p{
     text-align: center;
 }
 #bulbasaur{
-    width: 215px;
+    width: 100px;
     background-color: white;
     padding: 10px;
     margin: 10px;
    
 }
 #charmander{
-    width: 215px;
+    width: 100px;
     background-color: white;
     padding: 10px;
     margin: 10px;
 }
 #horsea{
-    width: 215px;
+    width: 100px;
     background-color: white;
     padding: 10px;
     margin: 10px;
 }
 #pikachu{
-    width: 215px;
+    width: 100px;
     background-color: white;
     padding: 10px;
     margin: 10px;
+}
+
+#bench {
+    background-color: yellow;
+    max-width: 150px;
+    float: left;
+    margin-right: 150px;
+}
+#enemyBench{
+    background-color: green;
+    max-width: 150px;
+    height: 700px;
+    float: left;
+    margin-right: 150px;
+}
+#yourCharacter{
+    background-color: blue;
+    max-width: 150px;
+    height: 700px;
+    float: left;
+    margin-right: 150px;
+}
+#defender{
+    background-color: white;
+    max-width: 150px;
+    height: 700px;
+    float: left;
+    margin-right: 150px;
 }
