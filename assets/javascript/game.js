@@ -86,3 +86,4 @@ $(".cardEnemyBench").on("click", function () {
         $("#pikachuEnemy").attr("hidden", "");
     }
 })                                                     
+
