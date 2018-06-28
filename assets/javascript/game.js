@@ -10,8 +10,17 @@ $("#horseaHPBench").text(horseaHP);
 $("#pikachuHPBench").text(pikachuHP);
 //if you click on any one of the characters, you need to move it to the yourCharacter div
 $(".cardBench").on("click", function () {
-    $(this).attr("hidden", "");
-    var firstClick = this;
-    if (this === firstClick)
+// why won't this syntax work :(
+    if (this === $("#bulbasaurBench.cardBench")) {
         $("#bulbasaurSelected").removeAttr("hidden");
-})
+    }
+    else if (this === "div#charmanderBench.cardBench"){
+        $("#charmanderSelected").removeAttr("hidden");
+    }
+    else if (this === "div#horseaBench.cardBench"){
+        $("#horseaSelected").removeAttr("hidden");
+    }
+    else if (this === "div#pikachuBench.cardBench"){
+        $("#pikachuSelected").removeAttr("hidden");
+    }
+})                                                              
